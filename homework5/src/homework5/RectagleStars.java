@@ -11,7 +11,7 @@ public class RectagleStars {
 		for(int i = 0; i <(num/2); i++){  // 세로길이 입력된 num/2(개행 여백: 1줄) 만큼 * 출력
 			for(int j=0; j<num; j++){  // 가로길이 입력된 num 만큼 * 출력
 				System.out.print("*");
-			}System.out.println();  // 가로 한줄 완성마다 개행
+			}System.out.println();  // 가로 한줄이 완성될때 개행
 		}
 		
 	}

@@ -16,7 +16,7 @@ public class IsoscelesTriangleStars {
 			for(int j=0; j<=nul; j++){System.out.print(" ");}// nul만큼 띄움("공백길이")
 			for(int k=0; k <=star; k++){System.out.print("*");}// star만큼 *을 출력함 (*갯수)
 				
-			System.out.println();  // 한줄 개행		[ 이곳은 높이 for문]
+			System.out.println();  // 한줄 개행(한줄이 끝남, 이제 공백, *갯수 변동주고 다시 똑같이 실행)		[ 이곳은 높이 for문]
 			nul--;  // h를 1줄임 : " "를 전보다 1개씩 덜 출력하겠다.  (이등변삼각형 모양을 위해 한칸 왼쪽까지만 공백 출력)
 			star+=2;  // star를 2개 늘림 : *를 전보다 2개씩 더 출력하겠다. ( nul 자리가 왼쪽으로 옮겨지니 *을 2개씩 더 출력시 이등변삼각형 완성)
 		}

@@ -1,4 +1,4 @@
-// 2번메뉴 클래스 :TriangleStars
+// 2번메뉴 클래스 :TriangleStars.
 
 package homework5;
 import java.util.Scanner;

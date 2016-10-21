@@ -1,4 +1,4 @@
-// 3번메뉴 클래스 :IsoscelesTriangleStars
+// 3번메뉴 클래스 :IsoscelesTriangleStars.
 
 package homework5;
 import java.util.Scanner;

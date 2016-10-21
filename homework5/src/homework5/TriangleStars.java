@@ -1,4 +1,4 @@
-// 2¹ø¸Ş´º Å¬·¡½º :TriangleStars.
+// 2ë²ˆë©”ë‰´ í´ë˜ìŠ¤ :TriangleStars
 
 package homework5;
 import java.util.Scanner;

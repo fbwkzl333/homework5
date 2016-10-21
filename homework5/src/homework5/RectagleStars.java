@@ -1,4 +1,4 @@
-// 1¹ø¸Ş´º Å¬·¡½º :RectagleStars.
+// 1ë²ˆë©”ë‰´ í´ë˜ìŠ¤ :RectagleStars
 
 package homework5;
 import java.util.Scanner;

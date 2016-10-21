@@ -1,5 +1,4 @@
-// Main함수포함 클래스 : ExamForWhileStars
-
+// Main함수포함 클래스 : ExamForWhileStars.
 package homework5;
 import java.util.Scanner;
 

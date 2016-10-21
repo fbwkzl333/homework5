@@ -1,4 +1,4 @@
-// 3¹ø¸Ş´º Å¬·¡½º :IsoscelesTriangleStars.
+// 3ë²ˆë©”ë‰´ í´ë˜ìŠ¤ :IsoscelesTriangleStars
 
 package homework5;
 import java.util.Scanner;

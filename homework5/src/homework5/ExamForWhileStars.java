@@ -1,4 +1,4 @@
-// MainÇÔ¼öÆ÷ÇÔ Å¬·¡½º : ExamForWhileStars.
+// Mainí•¨ìˆ˜í¬í•¨ í´ë˜ìŠ¤ : ExamForWhileStars
 package homework5;
 import java.util.Scanner;
 
@@ -7,20 +7,20 @@ public class ExamForWhileStars {
 	public static void ReportClass(){
 		Scanner s = new Scanner(System.in);
 		System.out.print("*******************\n"
-				+ "¹İº¹¹® ¿¬½ÀÇÏ±â 2\n"
+				+ "ë°˜ë³µë¬¸ ì—°ìŠµí•˜ê¸°2\n"
 				+ "*******************\n"
-				+ "1. Á¤»ï°¢Çü º°Âï±â\n"
-				+ "2. Á÷°¢»ï°¢ º°Âï±â\n"
-				+ "3. ÀÌµîº¯»ï°¢Çü º°Âï±â\n"
-				+ "4. ´ÙÀÌ¾Æ¸óµå º°Âï±â\n"
-				+ "5. Á¾·áÇÏ±â\n"
-				+ "¿øÇÏ´Â ¸Ş´º´Â >> ");  // ¹®Á¦ Ãâ·Â
-		int num = s.nextInt(); 		// num¿¡ ÀÔ·Â¹ŞÀº int°ª ³ÖÀ½
+				+ "1. ì •ì‚¬ê°í˜• ë³„ì°ê¸°\n"
+				+ "2. ì§ê°ì‚¼ê° ë³„ì°ê¸°\n"
+				+ "3. ì´ë“±ë³€ì‚¼ê°í˜• ë³„ì°ê¸°\n"
+				+ "4. ë‹¤ì´ì•„ëª¬ë“œ ë³„ì°ê¸°\n"
+				+ "5. ì¢…ë£Œí•˜ê¸°\n"
+				+ "ì›í•˜ëŠ” ë©”ë‰´ëŠ”>> ");  // ë¬¸ì œ ì¶œë ¥
+		int num = s.nextInt(); 		// numì„ intí˜•ìœ¼ë¡œ ì…ë ¥ë°›ìŒ
 		
-		switch(num){ // numÀÌ ¹ºÁö ºñ±³ÇÔ (¹øÈ£¼±ÅÃ->ÇØ´ç¹øÈ£ Å¬·¡½º ½ÇÇà)
-		case 1:  //num = 1(. Á¤»ï°¢Çü º°Âï±â¸¦ ÀÔ·ÂÇßÀ»¶§)
-			RectagleStars num1 = new RectagleStars();  // 1¹ø¹®Á¦ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º »ı¼º
-			num1.Rec();  // 1¹ø¹®Á¦ Å¬·¡½ºÀÇ ¸Ş¼Òµå È£ÃâÇÏ¿© ¹İÈ¯
+		switch(num){ // numì„ ë¹„êµí•¨ ( ì…ë ¥ëœ ë²ˆí˜¸ -> í•´ë‹¹ í´ë˜ìŠ¤ í˜¸ì¶œ)
+		case 1:  //num = 1(. ì •ì‚¬ê°í˜• ë³„ì°ê¸° )
+			RectagleStars num1 = new RectagleStars();  // 1ë²ˆ í´ë˜ìŠ¤ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+			num1.Rec();  // 1ë²ˆ í´ë˜ìŠ¤ í˜¸ì¶œ, ë°˜í™˜
 			break;
 		case 2: 
 			TriangleStars num2 = new TriangleStars();
